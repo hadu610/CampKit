@@ -17,7 +17,10 @@ enum {
 
 
 
-@interface ORBGameScene () <SKPhysicsContactDelegate>
+@interface ORBGameScene () <SKPhysicsContactDelegate, UIGestureRecognizerDelegate>
+{
+    UISwipeGestureRecognizer* swipeRightGesture;
+}
 @end
 
 @implementation ORBGameScene
@@ -32,13 +35,13 @@ enum {
 -(id)initWithSize:(CGSize)size {    
     if (self = [super initWithSize:size]) {
         
-        scoreLabel = [SKLabelNode labelNodeWithFontNamed:@"Avenir-Black"];
+        scoreLabel = [SKLabelNode labelNodeWithFontNamed:@"HelveticaNeue-UltraLight"];
         
         score = 0;
         scoreLabel.text = [NSString stringWithFormat:@"%d", score];
-        scoreLabel.fontSize = 80;
+        scoreLabel.fontSize = 60;
         scoreLabel.position = CGPointMake(CGRectGetMidX(self.frame),
-                                         self.frame.size.height-100);
+                                         self.frame.size.height-80);
         scoreLabel.fontColor = [SKColor colorWithHue:0 saturation:0 brightness:1 alpha:1];
         
         [self addChild:scoreLabel];
@@ -77,14 +80,6 @@ enum {
         [self addChild:_player];
     }
     return self;
-}
-
-- (void)didMoveToView:(SKView *)view
-{
-        [self runAction:[SKAction group:@[
-/*            [SKAction spawnPlayer] => spawn animation, then add player to world,*/
-        ]]];
-    [self performSelector:@selector(spawnEnemy) withObject:nil afterDelay:1.0];
 }
 
 - (void)spawnEnemy
@@ -207,6 +202,51 @@ enum {
     contact.bodyB.node.physicsBody = nil;
 }
 
+-(void) didMoveToView: (SKView *) view
+{
+    [self runAction:[SKAction group:@[
+    /*            [SKAction spawnPlayer] => spawn animation, then add player to world,*/
+                                      ]]];
+    [self performSelector:@selector(spawnEnemy) withObject:nil afterDelay:1.0];
+    
+    
+    swipeRightGesture = [[UISwipeGestureRecognizer alloc] initWithTarget: self action:@selector( handleSwipeRight:)];
+    [swipeRightGesture setDirection: UISwipeGestureRecognizerDirectionRight];
+    swipeRightGesture.numberOfTouchesRequired = 2;
+    
+    [view addGestureRecognizer: swipeRightGesture ];
+}
+
+- ( void ) willMoveFromView: (SKView *) view {
+    
+    NSLog(@"Scene moved from view");
+    
+    [view removeGestureRecognizer: swipeRightGesture ];
+}
+
+-(void) gameOver {
+    
+    SKScene* nextScene = [[ ORBMenuScene alloc] initWithSize: self.size];
+    SKTransition* fade = [SKTransition fadeWithColor: [SKColor blackColor]duration:1.5];
+    [self.view presentScene:nextScene transition:fade];
+    
+}
+
+
+-(void) handleSwipeRight:( UISwipeGestureRecognizer *) recognizer {
+    
+    if (recognizer.numberOfTouches == 1 || recognizer.numberOfTouches == 2) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Exit Game" message:@"Do you want to quit?" delegate:self cancelButtonTitle:@"YES" otherButtonTitles:@"NO", nil];
+        [alert show];
+    }
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+    if (buttonIndex == 0){
+        [self gameOver];
+    }
+}
+
 @end
 
 @implementation SKEmitterNode (fromFile)
@@ -214,5 +254,6 @@ enum {
 {
     return [NSKeyedUnarchiver unarchiveObjectWithFile:[[NSBundle mainBundle] pathForResource:name ofType:@"sks"]];
 }
+
 @end
 

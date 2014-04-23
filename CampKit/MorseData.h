@@ -10,4 +10,14 @@
 
 @interface MorseData : NSObject
 
+@property (nonatomic, strong) NSDictionary *decodeData;
+@property (nonatomic, strong) NSDictionary *encodeData;
+
++ (MorseData *)singleton;
+
++(id)morseData;
+
++ findMorse:(NSString *)morse;
+
 @end
+

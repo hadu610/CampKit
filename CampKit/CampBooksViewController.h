@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface CampBooksViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIWebView *BooksWebView;
 
 @end

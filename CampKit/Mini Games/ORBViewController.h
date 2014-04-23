@@ -10,5 +10,6 @@
 #import <SpriteKit/SpriteKit.h>
 
 @interface ORBViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UINavigationBar *navigationBar;
 
 @end

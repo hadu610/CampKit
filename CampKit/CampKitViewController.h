@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface CampKitViewController : UIViewController
+- (IBAction)openTNTTWebsiteOnSafari:(id)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *backgroundImageView;
 
 @end

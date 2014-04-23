@@ -22,11 +22,20 @@
     }
     return self;
 }
-
+- (BOOL)prefersStatusBarHidden {
+    return YES;
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+//    NSString *path = [[NSBundle mainBundle] pathForResource:@"book" ofType:@"pdf" inDirectory:@""];
+//    NSURL *url = [NSURL fileURLWithPath:path];
+//    NSURL *url = [NSURL URLWithString:@"http://www.tntt.org/mm5/merchant.mvc?Screen=TLHL&Store_Code=TNTT"];
+//    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+//    [_BooksWebView loadRequest:request];
+    
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"http://www.tntt.org/mm5/merchant.mvc?Screen=TLHL&Store_Code=TNTT"]];
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,5 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>A</key>
+	<string>A</string>
+	<key>B</key>
+	<string>B</string>
+	<key>C</key>
+	<string>C</string>
+	<key>D</key>
+	<string>D</string>
+	<key>E</key>
+	<string>E</string>
+	<key>F</key>
+	<string>F</string>
+	<key>G</key>
+	<string>G</string>
+	<key>H</key>
+	<string>H</string>
+	<key>I</key>
+	<string>I</string>
+	<key>J</key>
+	<string>J</string>
+	<key>K</key>
+	<string>K</string>
+	<key>L</key>
+	<string>L</string>
+	<key>M</key>
+	<string>M</string>
+	<key>N</key>
+	<string>N</string>
+	<key>O</key>
+	<string>O</string>
+	<key>P</key>
+	<string>P</string>
+	<key>Q</key>
+	<string>Q</string>
+	<key>R</key>
+	<string>R</string>
+	<key>S</key>
+	<string>S</string>
+	<key>T</key>
+	<string>T</string>
+	<key>U</key>
+	<string>U</string>
+	<key>V</key>
+	<string>V</string>
+	<key>W</key>
+	<string>W</string>
+	<key>X</key>
+	<string>X</string>
+	<key>Y</key>
+	<string>Y</string>
+	<key>Z</key>
+	<string>Z</string>
+	<key> </key>
+	<string> </string>
+	<key>1</key>
+	<string>A</string>
+	<key>2</key>
+	<string>B</string>
+	<key>3</key>
+	<string>C</string>
+	<key>4</key>
+	<string>D</string>
+	<key>5</key>
+	<string>E</string>
+	<key>6</key>
+	<string>F</string>
+	<key>7</key>
+	<string>G</string>
+	<key>8</key>
+	<string>H</string>
+	<key>9</key>
+	<string>I</string>
+	<key>0</key>
+	<string>K</string>
+</dict>
 </plist>

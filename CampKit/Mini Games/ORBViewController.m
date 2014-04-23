@@ -20,6 +20,11 @@
 {
     [super viewDidLoad];
 
+    [_navigationBar setBackgroundImage:[UIImage new]
+                         forBarMetrics:UIBarMetricsDefault];
+    _navigationBar.shadowImage = [UIImage new];
+    _navigationBar.translucent = YES;
+    
     // Configure the view.
     SKView * skView = (SKView *)self.view;
 //    skView.showsFPS = YES;
@@ -28,6 +33,7 @@
     // Create and configure the scene.
     SKScene * scene = [ORBMenuScene sceneWithSize:skView.bounds.size];
     scene.scaleMode = SKSceneScaleModeResizeFill;
+    
     
     // Present the scene.
     [skView presentScene:scene];

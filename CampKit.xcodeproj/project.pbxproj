@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D00BCA618B6ED3B00E415C1 /* MorseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D00BCA518B6ED3B00E415C1 /* MorseData.m */; };
+		9D1407BA184F8AC2004365E1 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1407B9184F8AC2004365E1 /* UIImage+ImageEffects.m */; };
+		9D1407BE184F91A7004365E1 /* HollyCross.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D1407BD184F91A7004365E1 /* HollyCross.jpg */; };
+		9D1407C5184FA043004365E1 /* background1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 9D1407C1184FA043004365E1 /* background1.JPG */; };
+		9D1407C6184FA043004365E1 /* background2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 9D1407C2184FA043004365E1 /* background2.JPG */; };
+		9D1407C7184FA043004365E1 /* background3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 9D1407C3184FA043004365E1 /* background3.JPG */; };
+		9D1407C8184FA043004365E1 /* background4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 9D1407C4184FA043004365E1 /* background4.JPG */; };
+		9D1407CA184FAB9C004365E1 /* CircleButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D1407C9184FAB9C004365E1 /* CircleButton.png */; };
+		9D1407CC184FBB5E004365E1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1407CB184FBB5E004365E1 /* MessageUI.framework */; };
+		9D2B446E184F29C7000CD8AF /* CampBooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B446D184F29C7000CD8AF /* CampBooksViewController.m */; };
+		9D32E262185580D700A7D7EF /* PracticeRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D32E261185580D700A7D7EF /* PracticeRoomViewController.m */; };
+		9D4BF5451852E34200CC5062 /* Face.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4BF5441852E34200CC5062 /* Face.png */; };
+		9D4BF547185301A400CC5062 /* HomeScreenBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D4BF546185301A400CC5062 /* HomeScreenBackground.png */; };
+		9D568F9F18482EEA00686614 /* TextBox.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 9D568F9E18482EEA00686614 /* TextBox.PNG */; };
 		9D699B381847B81F00FB74D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D699B371847B81F00FB74D7 /* Foundation.framework */; };
 		9D699B3A1847B81F00FB74D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D699B391847B81F00FB74D7 /* CoreGraphics.framework */; };
 		9D699B3C1847B81F00FB74D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D699B3B1847B81F00FB74D7 /* UIKit.framework */; };
@@ -22,6 +36,54 @@
 		9D699B5C1847B81F00FB74D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D699B3B1847B81F00FB74D7 /* UIKit.framework */; };
 		9D699B641847B81F00FB74D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D699B621847B81F00FB74D7 /* InfoPlist.strings */; };
 		9D699B661847B81F00FB74D7 /* CampKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D699B651847B81F00FB74D7 /* CampKitTests.m */; };
+		9D699B711847B85900FB74D7 /* MorseEncoderViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D699B701847B85900FB74D7 /* MorseEncoderViewControler.m */; };
+		9D783F5B18689ED100138134 /* DodgeItButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D783F5918689ED100138134 /* DodgeItButton.png */; };
+		9D783F5C18689ED100138134 /* FindingNumbersButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D783F5A18689ED100138134 /* FindingNumbersButton.png */; };
+		9DA930B71865017800CAE5C4 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA930A61865017800CAE5C4 /* circle.png */; };
+		9DA930B81865017800CAE5C4 /* circle2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA930A71865017800CAE5C4 /* circle2.png */; };
+		9DA930B91865017800CAE5C4 /* CircleGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA930A91865017800CAE5C4 /* CircleGameScene.m */; };
+		9DA930BA1865017800CAE5C4 /* Explosion.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9DA930AA1865017800CAE5C4 /* Explosion.m4a */; };
+		9DA930BB1865017800CAE5C4 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9DA930AB1865017800CAE5C4 /* Explosion.sks */; };
+		9DA930BD1865017800CAE5C4 /* ORBGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA930AF1865017800CAE5C4 /* ORBGameScene.m */; };
+		9DA930BE1865017800CAE5C4 /* ORBMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA930B11865017800CAE5C4 /* ORBMenuScene.m */; };
+		9DA930BF1865017800CAE5C4 /* ORBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA930B31865017800CAE5C4 /* ORBViewController.m */; };
+		9DA930C01865017800CAE5C4 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DA930B41865017800CAE5C4 /* spark.png */; };
+		9DA930C11865017800CAE5C4 /* Spawn.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9DA930B51865017800CAE5C4 /* Spawn.m4a */; };
+		9DA930C21865017800CAE5C4 /* Trail.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9DA930B61865017800CAE5C4 /* Trail.sks */; };
+		9DA930C418653FAC00CAE5C4 /* Background.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9DA930C318653FAC00CAE5C4 /* Background.sks */; };
+		9DA930C618653FCF00CAE5C4 /* Spawn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9DA930C518653FCF00CAE5C4 /* Spawn.wav */; };
+		9DB3EC4F184D788D00A9391B /*  .png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB3EC4E184D788D00A9391B /*  .png */; };
+		9DCD840D1849256A00DEDC5C /* MorseDecoderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCD840C1849256A00DEDC5C /* MorseDecoderViewController.m */; };
+		9DCD841C184941C900DEDC5C /* MorseDecodedData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD841A184941C900DEDC5C /* MorseDecodedData.plist */; };
+		9DCD841D184941C900DEDC5C /* MorseEncodedData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD841B184941C900DEDC5C /* MorseEncodedData.plist */; };
+		9DCD843A1849B77000DEDC5C /* A.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD841F1849B77000DEDC5C /* A.png */; };
+		9DCD843B1849B77000DEDC5C /* B.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD84201849B77000DEDC5C /* B.png */; };
+		9DCD843C1849B77000DEDC5C /* C.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD84211849B77000DEDC5C /* C.png */; };
+		9DCD843D1849B77000DEDC5C /* D.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD84221849B77000DEDC5C /* D.png */; };
+		9DCD843E1849B77000DEDC5C /* E.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD84231849B77000DEDC5C /* E.png */; };
+		9DCD843F1849B77000DEDC5C /* F.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD84241849B77000DEDC5C /* F.png */; };
+		9DCD84401849B77000DEDC5C /* G.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD84251849B77000DEDC5C /* G.png */; };
+		9DCD84411849B77000DEDC5C /* H.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD84261849B77000DEDC5C /* H.png */; };
+		9DCD84421849B77000DEDC5C /* I.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD84271849B77000DEDC5C /* I.png */; };
+		9DCD84431849B77000DEDC5C /* J.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD84281849B77000DEDC5C /* J.png */; };
+		9DCD84441849B77000DEDC5C /* K.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD84291849B77000DEDC5C /* K.png */; };
+		9DCD84451849B77000DEDC5C /* L.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD842A1849B77000DEDC5C /* L.png */; };
+		9DCD84461849B77000DEDC5C /* M.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD842B1849B77000DEDC5C /* M.png */; };
+		9DCD84471849B77000DEDC5C /* N.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD842C1849B77000DEDC5C /* N.png */; };
+		9DCD84481849B77000DEDC5C /* O.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD842D1849B77000DEDC5C /* O.png */; };
+		9DCD84491849B77000DEDC5C /* P.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD842E1849B77000DEDC5C /* P.png */; };
+		9DCD844A1849B77000DEDC5C /* Q.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD842F1849B77000DEDC5C /* Q.png */; };
+		9DCD844B1849B77000DEDC5C /* R.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD84301849B77000DEDC5C /* R.png */; };
+		9DCD844C1849B77000DEDC5C /* S.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD84311849B77000DEDC5C /* S.png */; };
+		9DCD844E1849B77000DEDC5C /* T.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD84331849B77000DEDC5C /* T.png */; };
+		9DCD844F1849B77000DEDC5C /* U.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD84341849B77000DEDC5C /* U.png */; };
+		9DCD84501849B77000DEDC5C /* V.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD84351849B77000DEDC5C /* V.png */; };
+		9DCD84511849B77000DEDC5C /* W.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD84361849B77000DEDC5C /* W.png */; };
+		9DCD84521849B77000DEDC5C /* X.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD84371849B77000DEDC5C /* X.png */; };
+		9DCD84531849B77000DEDC5C /* Y.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD84381849B77000DEDC5C /* Y.png */; };
+		9DCD84541849B77000DEDC5C /* Z.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD84391849B77000DEDC5C /* Z.png */; };
+		9DCD84561849B7A900DEDC5C /* SemaphoreData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DCD84551849B7A900DEDC5C /* SemaphoreData.plist */; };
+		9DF2BE10189246D700D8BCBC /* SemaphoreEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF2BE0F189246D700D8BCBC /* SemaphoreEncoder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +97,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D00BCA418B6ED3B00E415C1 /* MorseData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorseData.h; sourceTree = "<group>"; };
+		9D00BCA518B6ED3B00E415C1 /* MorseData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MorseData.m; sourceTree = "<group>"; };
+		9D1407B8184F8AC2004365E1 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		9D1407B9184F8AC2004365E1 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		9D1407BD184F91A7004365E1 /* HollyCross.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HollyCross.jpg; sourceTree = "<group>"; };
+		9D1407C1184FA043004365E1 /* background1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background1.JPG; sourceTree = "<group>"; };
+		9D1407C2184FA043004365E1 /* background2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background2.JPG; sourceTree = "<group>"; };
+		9D1407C3184FA043004365E1 /* background3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background3.JPG; sourceTree = "<group>"; };
+		9D1407C4184FA043004365E1 /* background4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background4.JPG; sourceTree = "<group>"; };
+		9D1407C9184FAB9C004365E1 /* CircleButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CircleButton.png; sourceTree = "<group>"; };
+		9D1407CB184FBB5E004365E1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		9D2B446C184F29C7000CD8AF /* CampBooksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampBooksViewController.h; sourceTree = "<group>"; };
+		9D2B446D184F29C7000CD8AF /* CampBooksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampBooksViewController.m; sourceTree = "<group>"; };
+		9D32E260185580D700A7D7EF /* PracticeRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PracticeRoomViewController.h; sourceTree = "<group>"; };
+		9D32E261185580D700A7D7EF /* PracticeRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PracticeRoomViewController.m; sourceTree = "<group>"; };
+		9D4BF5441852E34200CC5062 /* Face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Face.png; sourceTree = "<group>"; };
+		9D4BF546185301A400CC5062 /* HomeScreenBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HomeScreenBackground.png; sourceTree = "<group>"; };
+		9D568F9E18482EEA00686614 /* TextBox.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextBox.PNG; sourceTree = "<group>"; };
 		9D699B341847B81F00FB74D7 /* CampKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D699B371847B81F00FB74D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9D699B391847B81F00FB74D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +135,62 @@
 		9D699B611847B81F00FB74D7 /* CampKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CampKitTests-Info.plist"; sourceTree = "<group>"; };
 		9D699B631847B81F00FB74D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9D699B651847B81F00FB74D7 /* CampKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CampKitTests.m; sourceTree = "<group>"; };
+		9D699B6F1847B85900FB74D7 /* MorseEncoderViewControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorseEncoderViewControler.h; sourceTree = "<group>"; };
+		9D699B701847B85900FB74D7 /* MorseEncoderViewControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MorseEncoderViewControler.m; sourceTree = "<group>"; };
+		9D783F5918689ED100138134 /* DodgeItButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DodgeItButton.png; sourceTree = "<group>"; };
+		9D783F5A18689ED100138134 /* FindingNumbersButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FindingNumbersButton.png; sourceTree = "<group>"; };
+		9DA930A51865017800CAE5C4 /* CGVector+TC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGVector+TC.h"; sourceTree = "<group>"; };
+		9DA930A61865017800CAE5C4 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circle.png; path = "Mini Games/circle.png"; sourceTree = "<group>"; };
+		9DA930A71865017800CAE5C4 /* circle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circle2.png; path = "Mini Games/circle2.png"; sourceTree = "<group>"; };
+		9DA930A81865017800CAE5C4 /* CircleGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleGameScene.h; sourceTree = "<group>"; };
+		9DA930A91865017800CAE5C4 /* CircleGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleGameScene.m; sourceTree = "<group>"; };
+		9DA930AA1865017800CAE5C4 /* Explosion.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Explosion.m4a; sourceTree = "<group>"; };
+		9DA930AB1865017800CAE5C4 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		9DA930AE1865017800CAE5C4 /* ORBGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBGameScene.h; sourceTree = "<group>"; };
+		9DA930AF1865017800CAE5C4 /* ORBGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBGameScene.m; sourceTree = "<group>"; };
+		9DA930B01865017800CAE5C4 /* ORBMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBMenuScene.h; sourceTree = "<group>"; };
+		9DA930B11865017800CAE5C4 /* ORBMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBMenuScene.m; sourceTree = "<group>"; };
+		9DA930B21865017800CAE5C4 /* ORBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBViewController.h; sourceTree = "<group>"; };
+		9DA930B31865017800CAE5C4 /* ORBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBViewController.m; sourceTree = "<group>"; };
+		9DA930B41865017800CAE5C4 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = "Mini Games/spark.png"; sourceTree = "<group>"; };
+		9DA930B51865017800CAE5C4 /* Spawn.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spawn.m4a; sourceTree = "<group>"; };
+		9DA930B61865017800CAE5C4 /* Trail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Trail.sks; sourceTree = "<group>"; };
+		9DA930C318653FAC00CAE5C4 /* Background.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Background.sks; sourceTree = "<group>"; };
+		9DA930C518653FCF00CAE5C4 /* Spawn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Spawn.wav; sourceTree = "<group>"; };
+		9DB3EC4E184D788D00A9391B /*  .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = " .png"; sourceTree = "<group>"; };
+		9DCD840B1849256A00DEDC5C /* MorseDecoderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorseDecoderViewController.h; sourceTree = "<group>"; };
+		9DCD840C1849256A00DEDC5C /* MorseDecoderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MorseDecoderViewController.m; sourceTree = "<group>"; };
+		9DCD841A184941C900DEDC5C /* MorseDecodedData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MorseDecodedData.plist; sourceTree = "<group>"; };
+		9DCD841B184941C900DEDC5C /* MorseEncodedData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MorseEncodedData.plist; sourceTree = "<group>"; };
+		9DCD841F1849B77000DEDC5C /* A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A.png; sourceTree = "<group>"; };
+		9DCD84201849B77000DEDC5C /* B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B.png; sourceTree = "<group>"; };
+		9DCD84211849B77000DEDC5C /* C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C.png; sourceTree = "<group>"; };
+		9DCD84221849B77000DEDC5C /* D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D.png; sourceTree = "<group>"; };
+		9DCD84231849B77000DEDC5C /* E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = E.png; sourceTree = "<group>"; };
+		9DCD84241849B77000DEDC5C /* F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = F.png; sourceTree = "<group>"; };
+		9DCD84251849B77000DEDC5C /* G.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = G.png; sourceTree = "<group>"; };
+		9DCD84261849B77000DEDC5C /* H.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = H.png; sourceTree = "<group>"; };
+		9DCD84271849B77000DEDC5C /* I.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = I.png; sourceTree = "<group>"; };
+		9DCD84281849B77000DEDC5C /* J.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = J.png; sourceTree = "<group>"; };
+		9DCD84291849B77000DEDC5C /* K.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = K.png; sourceTree = "<group>"; };
+		9DCD842A1849B77000DEDC5C /* L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L.png; sourceTree = "<group>"; };
+		9DCD842B1849B77000DEDC5C /* M.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = M.png; sourceTree = "<group>"; };
+		9DCD842C1849B77000DEDC5C /* N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = N.png; sourceTree = "<group>"; };
+		9DCD842D1849B77000DEDC5C /* O.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = O.png; sourceTree = "<group>"; };
+		9DCD842E1849B77000DEDC5C /* P.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = P.png; sourceTree = "<group>"; };
+		9DCD842F1849B77000DEDC5C /* Q.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Q.png; sourceTree = "<group>"; };
+		9DCD84301849B77000DEDC5C /* R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = R.png; sourceTree = "<group>"; };
+		9DCD84311849B77000DEDC5C /* S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = S.png; sourceTree = "<group>"; };
+		9DCD84331849B77000DEDC5C /* T.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T.png; sourceTree = "<group>"; };
+		9DCD84341849B77000DEDC5C /* U.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = U.png; sourceTree = "<group>"; };
+		9DCD84351849B77000DEDC5C /* V.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = V.png; sourceTree = "<group>"; };
+		9DCD84361849B77000DEDC5C /* W.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = W.png; sourceTree = "<group>"; };
+		9DCD84371849B77000DEDC5C /* X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X.png; sourceTree = "<group>"; };
+		9DCD84381849B77000DEDC5C /* Y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Y.png; sourceTree = "<group>"; };
+		9DCD84391849B77000DEDC5C /* Z.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Z.png; sourceTree = "<group>"; };
+		9DCD84551849B7A900DEDC5C /* SemaphoreData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = SemaphoreData.plist; path = "Semaphore Photos/SemaphoreData.plist"; sourceTree = "<group>"; };
+		9DF2BE0E189246D700D8BCBC /* SemaphoreEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SemaphoreEncoder.h; sourceTree = "<group>"; };
+		9DF2BE0F189246D700D8BCBC /* SemaphoreEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SemaphoreEncoder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +198,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D1407CC184FBB5E004365E1 /* MessageUI.framework in Frameworks */,
 				9D699B3A1847B81F00FB74D7 /* CoreGraphics.framework in Frameworks */,
 				9D699B3C1847B81F00FB74D7 /* UIKit.framework in Frameworks */,
 				9D699B381847B81F00FB74D7 /* Foundation.framework in Frameworks */,
@@ -103,6 +240,7 @@
 		9D699B361847B81F00FB74D7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9D1407CB184FBB5E004365E1 /* MessageUI.framework */,
 				9D699B371847B81F00FB74D7 /* Foundation.framework */,
 				9D699B391847B81F00FB74D7 /* CoreGraphics.framework */,
 				9D699B3B1847B81F00FB74D7 /* UIKit.framework */,
@@ -114,14 +252,27 @@
 		9D699B3D1847B81F00FB74D7 /* CampKit */ = {
 			isa = PBXGroup;
 			children = (
-				9D699B461847B81F00FB74D7 /* CampKitAppDelegate.h */,
-				9D699B471847B81F00FB74D7 /* CampKitAppDelegate.m */,
 				9D699B491847B81F00FB74D7 /* Main_iPhone.storyboard */,
 				9D699B4C1847B81F00FB74D7 /* Main_iPad.storyboard */,
 				9D699B4F1847B81F00FB74D7 /* CampKitViewController.h */,
 				9D699B501847B81F00FB74D7 /* CampKitViewController.m */,
-				9D699B521847B81F00FB74D7 /* Images.xcassets */,
+				9D699B6F1847B85900FB74D7 /* MorseEncoderViewControler.h */,
+				9D699B701847B85900FB74D7 /* MorseEncoderViewControler.m */,
+				9DCD840B1849256A00DEDC5C /* MorseDecoderViewController.h */,
+				9DCD840C1849256A00DEDC5C /* MorseDecoderViewController.m */,
+				9DF2BE0E189246D700D8BCBC /* SemaphoreEncoder.h */,
+				9DF2BE0F189246D700D8BCBC /* SemaphoreEncoder.m */,
+				9D2B446C184F29C7000CD8AF /* CampBooksViewController.h */,
+				9D2B446D184F29C7000CD8AF /* CampBooksViewController.m */,
+				9D32E260185580D700A7D7EF /* PracticeRoomViewController.h */,
+				9D32E261185580D700A7D7EF /* PracticeRoomViewController.m */,
+				9D00BCA418B6ED3B00E415C1 /* MorseData.h */,
+				9D00BCA518B6ED3B00E415C1 /* MorseData.m */,
+				9DA930A41865017800CAE5C4 /* Mini Games */,
+				9DCD845A1849B9DB00DEDC5C /* UI Photos */,
+				9DCD841E1849B77000DEDC5C /* Semaphore Photos */,
 				9D699B3E1847B81F00FB74D7 /* Supporting Files */,
+				9D699B521847B81F00FB74D7 /* Images.xcassets */,
 			);
 			path = CampKit;
 			sourceTree = "<group>";
@@ -129,6 +280,13 @@
 		9D699B3E1847B81F00FB74D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9D1407B8184F8AC2004365E1 /* UIImage+ImageEffects.h */,
+				9D1407B9184F8AC2004365E1 /* UIImage+ImageEffects.m */,
+				9D699B461847B81F00FB74D7 /* CampKitAppDelegate.h */,
+				9D699B471847B81F00FB74D7 /* CampKitAppDelegate.m */,
+				9DCD84551849B7A900DEDC5C /* SemaphoreData.plist */,
+				9DCD841A184941C900DEDC5C /* MorseDecodedData.plist */,
+				9DCD841B184941C900DEDC5C /* MorseEncodedData.plist */,
 				9D699B3F1847B81F00FB74D7 /* CampKit-Info.plist */,
 				9D699B401847B81F00FB74D7 /* InfoPlist.strings */,
 				9D699B431847B81F00FB74D7 /* main.m */,
@@ -153,6 +311,83 @@
 				9D699B621847B81F00FB74D7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DA930A41865017800CAE5C4 /* Mini Games */ = {
+			isa = PBXGroup;
+			children = (
+				9DA930B21865017800CAE5C4 /* ORBViewController.h */,
+				9DA930B31865017800CAE5C4 /* ORBViewController.m */,
+				9DA930B01865017800CAE5C4 /* ORBMenuScene.h */,
+				9DA930B11865017800CAE5C4 /* ORBMenuScene.m */,
+				9DA930A81865017800CAE5C4 /* CircleGameScene.h */,
+				9DA930A91865017800CAE5C4 /* CircleGameScene.m */,
+				9DA930AE1865017800CAE5C4 /* ORBGameScene.h */,
+				9DA930AF1865017800CAE5C4 /* ORBGameScene.m */,
+				9DA930A51865017800CAE5C4 /* CGVector+TC.h */,
+				9DA930C318653FAC00CAE5C4 /* Background.sks */,
+				9DA930AA1865017800CAE5C4 /* Explosion.m4a */,
+				9DA930C518653FCF00CAE5C4 /* Spawn.wav */,
+				9DA930B51865017800CAE5C4 /* Spawn.m4a */,
+				9DA930AB1865017800CAE5C4 /* Explosion.sks */,
+				9DA930B61865017800CAE5C4 /* Trail.sks */,
+			);
+			path = "Mini Games";
+			sourceTree = "<group>";
+		};
+		9DCD841E1849B77000DEDC5C /* Semaphore Photos */ = {
+			isa = PBXGroup;
+			children = (
+				9DB3EC4E184D788D00A9391B /*  .png */,
+				9DCD841F1849B77000DEDC5C /* A.png */,
+				9DCD84201849B77000DEDC5C /* B.png */,
+				9DCD84211849B77000DEDC5C /* C.png */,
+				9DCD84221849B77000DEDC5C /* D.png */,
+				9DCD84231849B77000DEDC5C /* E.png */,
+				9DCD84241849B77000DEDC5C /* F.png */,
+				9DCD84251849B77000DEDC5C /* G.png */,
+				9DCD84261849B77000DEDC5C /* H.png */,
+				9DCD84271849B77000DEDC5C /* I.png */,
+				9DCD84281849B77000DEDC5C /* J.png */,
+				9DCD84291849B77000DEDC5C /* K.png */,
+				9DCD842A1849B77000DEDC5C /* L.png */,
+				9DCD842B1849B77000DEDC5C /* M.png */,
+				9DCD842C1849B77000DEDC5C /* N.png */,
+				9DCD842D1849B77000DEDC5C /* O.png */,
+				9DCD842E1849B77000DEDC5C /* P.png */,
+				9DCD842F1849B77000DEDC5C /* Q.png */,
+				9DCD84301849B77000DEDC5C /* R.png */,
+				9DCD84311849B77000DEDC5C /* S.png */,
+				9DCD84331849B77000DEDC5C /* T.png */,
+				9DCD84341849B77000DEDC5C /* U.png */,
+				9DCD84351849B77000DEDC5C /* V.png */,
+				9DCD84361849B77000DEDC5C /* W.png */,
+				9DCD84371849B77000DEDC5C /* X.png */,
+				9DCD84381849B77000DEDC5C /* Y.png */,
+				9DCD84391849B77000DEDC5C /* Z.png */,
+			);
+			path = "Semaphore Photos";
+			sourceTree = "<group>";
+		};
+		9DCD845A1849B9DB00DEDC5C /* UI Photos */ = {
+			isa = PBXGroup;
+			children = (
+				9D783F5918689ED100138134 /* DodgeItButton.png */,
+				9D783F5A18689ED100138134 /* FindingNumbersButton.png */,
+				9DA930B41865017800CAE5C4 /* spark.png */,
+				9DA930A61865017800CAE5C4 /* circle.png */,
+				9DA930A71865017800CAE5C4 /* circle2.png */,
+				9D4BF546185301A400CC5062 /* HomeScreenBackground.png */,
+				9D4BF5441852E34200CC5062 /* Face.png */,
+				9D1407C1184FA043004365E1 /* background1.JPG */,
+				9D1407C2184FA043004365E1 /* background2.JPG */,
+				9D1407C3184FA043004365E1 /* background3.JPG */,
+				9D1407C4184FA043004365E1 /* background4.JPG */,
+				9D1407C9184FAB9C004365E1 /* CircleButton.png */,
+				9D568F9E18482EEA00686614 /* TextBox.PNG */,
+				9D1407BD184F91A7004365E1 /* HollyCross.jpg */,
+			);
+			name = "UI Photos";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,10 +467,60 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DCD84521849B77000DEDC5C /* X.png in Resources */,
+				9DCD844F1849B77000DEDC5C /* U.png in Resources */,
+				9DCD844B1849B77000DEDC5C /* R.png in Resources */,
+				9DCD84421849B77000DEDC5C /* I.png in Resources */,
+				9DA930C11865017800CAE5C4 /* Spawn.m4a in Resources */,
+				9DCD84501849B77000DEDC5C /* V.png in Resources */,
+				9D783F5B18689ED100138134 /* DodgeItButton.png in Resources */,
+				9DCD84451849B77000DEDC5C /* L.png in Resources */,
+				9DB3EC4F184D788D00A9391B /*  .png in Resources */,
+				9DCD84411849B77000DEDC5C /* H.png in Resources */,
+				9D783F5C18689ED100138134 /* FindingNumbersButton.png in Resources */,
+				9DCD84511849B77000DEDC5C /* W.png in Resources */,
+				9DCD841D184941C900DEDC5C /* MorseEncodedData.plist in Resources */,
+				9DCD84491849B77000DEDC5C /* P.png in Resources */,
+				9DCD841C184941C900DEDC5C /* MorseDecodedData.plist in Resources */,
+				9DA930B71865017800CAE5C4 /* circle.png in Resources */,
 				9D699B4E1847B81F00FB74D7 /* Main_iPad.storyboard in Resources */,
+				9DCD843F1849B77000DEDC5C /* F.png in Resources */,
 				9D699B531847B81F00FB74D7 /* Images.xcassets in Resources */,
+				9D1407C7184FA043004365E1 /* background3.JPG in Resources */,
+				9DA930C618653FCF00CAE5C4 /* Spawn.wav in Resources */,
+				9DCD844E1849B77000DEDC5C /* T.png in Resources */,
+				9D1407C6184FA043004365E1 /* background2.JPG in Resources */,
+				9D1407C5184FA043004365E1 /* background1.JPG in Resources */,
+				9DCD843D1849B77000DEDC5C /* D.png in Resources */,
+				9DCD84481849B77000DEDC5C /* O.png in Resources */,
+				9DCD84471849B77000DEDC5C /* N.png in Resources */,
 				9D699B4B1847B81F00FB74D7 /* Main_iPhone.storyboard in Resources */,
+				9DCD84441849B77000DEDC5C /* K.png in Resources */,
+				9D4BF547185301A400CC5062 /* HomeScreenBackground.png in Resources */,
+				9D568F9F18482EEA00686614 /* TextBox.PNG in Resources */,
+				9DCD843A1849B77000DEDC5C /* A.png in Resources */,
+				9DA930B81865017800CAE5C4 /* circle2.png in Resources */,
+				9DA930BB1865017800CAE5C4 /* Explosion.sks in Resources */,
+				9D1407BE184F91A7004365E1 /* HollyCross.jpg in Resources */,
+				9DA930C01865017800CAE5C4 /* spark.png in Resources */,
 				9D699B421847B81F00FB74D7 /* InfoPlist.strings in Resources */,
+				9D1407CA184FAB9C004365E1 /* CircleButton.png in Resources */,
+				9D1407C8184FA043004365E1 /* background4.JPG in Resources */,
+				9DCD844C1849B77000DEDC5C /* S.png in Resources */,
+				9DCD843C1849B77000DEDC5C /* C.png in Resources */,
+				9DCD843E1849B77000DEDC5C /* E.png in Resources */,
+				9DA930BA1865017800CAE5C4 /* Explosion.m4a in Resources */,
+				9DCD84531849B77000DEDC5C /* Y.png in Resources */,
+				9DCD84561849B7A900DEDC5C /* SemaphoreData.plist in Resources */,
+				9DCD84401849B77000DEDC5C /* G.png in Resources */,
+				9DCD84431849B77000DEDC5C /* J.png in Resources */,
+				9DA930C21865017800CAE5C4 /* Trail.sks in Resources */,
+				9DCD84541849B77000DEDC5C /* Z.png in Resources */,
+				9DCD84461849B77000DEDC5C /* M.png in Resources */,
+				9D4BF5451852E34200CC5062 /* Face.png in Resources */,
+				9DA930C418653FAC00CAE5C4 /* Background.sks in Resources */,
+				9DCD844A1849B77000DEDC5C /* Q.png in Resources */,
+				9DCD843B1849B77000DEDC5C /* B.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +540,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D699B511847B81F00FB74D7 /* CampKitViewController.m in Sources */,
+				9DCD840D1849256A00DEDC5C /* MorseDecoderViewController.m in Sources */,
+				9DA930BE1865017800CAE5C4 /* ORBMenuScene.m in Sources */,
+				9D2B446E184F29C7000CD8AF /* CampBooksViewController.m in Sources */,
+				9D00BCA618B6ED3B00E415C1 /* MorseData.m in Sources */,
 				9D699B481847B81F00FB74D7 /* CampKitAppDelegate.m in Sources */,
+				9DA930BF1865017800CAE5C4 /* ORBViewController.m in Sources */,
+				9DA930B91865017800CAE5C4 /* CircleGameScene.m in Sources */,
 				9D699B441847B81F00FB74D7 /* main.m in Sources */,
+				9D1407BA184F8AC2004365E1 /* UIImage+ImageEffects.m in Sources */,
+				9DF2BE10189246D700D8BCBC /* SemaphoreEncoder.m in Sources */,
+				9D32E262185580D700A7D7EF /* PracticeRoomViewController.m in Sources */,
+				9DA930BD1865017800CAE5C4 /* ORBGameScene.m in Sources */,
+				9D699B711847B85900FB74D7 /* MorseEncoderViewControler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,10 +689,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CampKit/CampKit-Prefix.pch";
 				INFOPLIST_FILE = "CampKit/CampKit-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -406,10 +705,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CampKit/CampKit-Prefix.pch";
 				INFOPLIST_FILE = "CampKit/CampKit-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -475,6 +777,7 @@
 				9D699B6B1847B81F00FB74D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D699B6C1847B81F00FB74D7 /* Build configuration list for PBXNativeTarget "CampKitTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +786,7 @@
 				9D699B6E1847B81F00FB74D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
